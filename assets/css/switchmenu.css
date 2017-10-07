@@ -637,4 +637,17 @@
 		margin-top: 3vw;
 		outline: none;
 	}
+
+	.switchMenu .imageSetTablet .slick-dots li button:before
+	{
+		font-size: 5vw !important;
+	}
+
+	.switchMenu .imageSetTablet .slick-dots
+	{
+		margin-top: 16vw !important;
+		position: absolute;
+		top: 150vw;
+	}
+
 }
