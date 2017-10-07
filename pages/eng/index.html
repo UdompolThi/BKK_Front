@@ -1,0 +1,1426 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bangkok Hospital - Homepage</title>
+	<meta charset="utf-8">
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./slick/slick.css">
+  	<link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+
+	<!-- AWESOME FONT -->
+	<link rel="stylesheet" href="../../assets/font/Font-awesome/css/font-awesome.min.css">
+
+	<!-- BASE STYLE -->
+	<link rel="stylesheet" href="../../assets/css/base.css">
+	<link rel="stylesheet" href="../../assets/css/layout.css">
+	<link rel="stylesheet" href="../../assets/css/font.css">
+
+	<!-- COMPONENT STYLE -->
+	<link rel="stylesheet" href="../../assets/css/nav.css">
+	<link rel="stylesheet" href="../../assets/css/changeLanguageModal.css">
+	<link rel="stylesheet" href="../../assets/css/megamenu.css">
+	<link rel="stylesheet" href="../../assets/css/banner.css">
+	<link rel="stylesheet" href="../../assets/css/brandhospital.css">
+	<link rel="stylesheet" href="../../assets/css/switchmenu.css">
+	<link rel="stylesheet" href="../../assets/css/insightnumber.css">
+	<link rel="stylesheet" href="../../assets/css/hospitalShopButton.css">
+	<link rel="stylesheet" href="../../assets/css/tablecontent.css">
+	<link rel="stylesheet" href="../../assets/css/subscribe.css">
+	<link rel="stylesheet" href="../../assets/css/footer.css">
+	<link rel="stylesheet" href="../../assets/css/moreButton.css">
+
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+	<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+	<div class="logo">
+		<a href="index.html">
+			<img src="../../assets/img/logo.png">
+		</a>
+	</div>
+	<div class="menu">
+		<div class="searchSection" id="searchSection">
+			<div class="icon">
+				<i class="fa fa-search" aria-hidden="true"></i>
+			</div>
+			<input type="text" placeholder="WHAT ARE YO LOOKING FOR?" class="TitB">
+			<div class="button">
+				<button class="t2">
+					SEARCH
+				</button>
+			</div>
+		</div>
+		<div class="navigationMenu" id="navigationMenu">
+			<div class="box" id="navMenuBox">
+				<div class="selectMenu t2"></div>
+				<div class="text uppercase">Centers & Clinics</div>
+				<img src="../../assets/icon/arrow-blue-down.svg" class="arrow">
+			</div>
+			<div class="box">
+				<div class="selectMenu t2"></div>
+				<div class="text uppercase">Patient Services</div>
+				<img src="../../assets/icon/arrow-blue-down.svg" class="arrow">
+			</div>
+			<div class="box">
+				<div class="selectMenu t2"></div>
+				<div class="text uppercase">Health Expert</div>
+				<img src="../../assets/icon/arrow-blue-down.svg" class="arrow">
+			</div>
+		</div>
+		<div class="box">
+			<div class="text uppercase">
+				<img src="../../assets/icon/search-blue.svg" class="search t2" id="searchNav">
+				<img src="../../assets/icon/close-search-nav-grey.svg" class="search t2" id="searchNavClose">
+				<img src="../../assets/icon/global-blue.svg" class="global t2" id="globalNav">
+			</div>
+		</div>
+		<div class="resBox" id="showResMegamenu">
+			<img src="../../assets/icon/hamburger-menu.svg">
+		</div>
+		<div class="resBox" id="hideResMegamenu">
+			<img src="../../assets/icon/close-mobileMenu.svg">
+		</div>
+		<div class="contact">
+			<div class="phonenumber uppercase">
+				<span class="text-blue">TEL.+662</span> 
+				<span class="text-red">310-3000</span>
+			</div>
+			<div class="localcalls text-blue uppercase TilB">
+				or 1719 (local calls)
+			</div>
+		</div>
+		<div class="resContact" onclick="window.open('tel:1719');">
+			<img src="../../assets/icon/call.svg">
+		</div>
+	</div>
+
+</nav>
+
+<div class="changeLanguageModal" id="changeLanguageModal">
+	<div class="box TitSB borderBottom">
+		ภาษาไทย <i class="fa fa-caret-left" aria-hidden="true"></i>
+	</div>
+	<div class="box TitSB active">
+		English <i class="fa fa-caret-left" aria-hidden="true"></i>
+	</div>
+	<div class="bottom TitSB" id="closechangeLanguageModal">
+		<i class="fa fa-times" aria-hidden="true"></i>
+		CLOSE
+	</div>
+</div>
+
+<!-- MEGA MENU -->
+<div class="megamenu" id="megamenu">
+	<div class="body">
+		<div class="menuLV1" id="menuLV1">
+			<!-- DATA OF MENU LV1 WILL BE APPENDED BY JAVASCRIPT
+			FILE : megamenu.js -->
+		</div>
+		<div class="menuLV2" id="menuLV2">
+			<a href="#">
+				<div class="moreButton blue t2">
+					<i class="fa fa-plus" aria-hidden="true"></i>
+					<br>
+					<div class="text">MORE</div>
+				</div>
+			</a>
+			<!-- DATA OF MENU LV2 WILL BE APPENDED BY JAVASCRIPT
+			FILE : megamenu.js -->
+		</div>
+	</div>
+	<div class="bottom TitR" id="closeMegamenu">
+		<div class="icon">
+			<i class="fa fa-times" aria-hidden="true"></i>
+		</div>
+		<div class="text">
+			CLOSE
+		</div>
+	</div>
+</div>
+
+
+<!-- FOR MOBILE -->
+<div class="resMegamenu" id="resMegamenu">
+	<div class="searchBox">
+		<div class="leftSection">
+			<input type="text" placeholder="WHAT ARE YOU LOOKING FOR?">
+		</div>
+		<div class="rightSection">
+			<i class="fa fa-search" aria-hidden="true"></i>
+		</div>
+	</div>
+	<a href="#">
+		<div class="box">
+			<div class="text text-red TitB uppercase">
+				FIND DOCTOR
+			</div>
+			<div class="icon text-red">
+				<i class="fa fa-stethoscope" aria-hidden="true"></i>
+			</div>
+		</div>
+	</a>
+	<a href="#">
+		<div class="box">
+			<div class="text text-red TitB uppercase">
+				MAKE AN APPOINTMENT
+			</div>
+			<div class="icon text-red">
+				<i class="fa fa-calendar" aria-hidden="true"></i>
+			</div>
+		</div>
+	</a>
+	<a href="#">
+		<div class="box">
+			<div class="text text-red TitB uppercase">
+				Alarm center & referral
+			</div>
+			<div class="icon text-red">
+				<i class="fa fa-ambulance" aria-hidden="true"></i>
+			</div>
+		</div>
+	</a>
+	<a href="#">
+		<div class="box">
+			<div class="text text-blue TitSB uppercase">
+				Home
+			</div>
+			<div class="icon text-blue">
+				<i class="fa fa-home" aria-hidden="true"></i>
+			</div>
+		</div>
+	</a>
+	<div class="box" id="mobileNavDropdown1">
+		<div class="text text-blue TitSB uppercase">
+			Centers & Clinics
+		</div>
+		<div class="icon text-blue">
+			<i class="fa fa-caret-down" aria-hidden="true"></i>
+		</div>
+	</div>
+
+	<div class="expand" id="mobileNavExpand1">
+		<div class="menuBox uppercase TitSB">
+			<div class="l">
+				Centers & Clinics
+			</div>
+			<div class="r">
+				<i class="fa fa-caret-up" aria-hidden="true"></i>
+			</div>
+		</div>
+		<div class="menuBox uppercase TitSB">
+			<div class="l">
+				<i class="fa fa-angle-right" aria-hidden="true"></i> 
+				Centers & Clinics
+			</div>
+			<div class="r">
+				<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+			</div>
+		</div>
+		<div class="menuBox uppercase TitSB">
+			<div class="l">
+				<i class="fa fa-angle-right" aria-hidden="true"></i> 
+				Centers & Clinics Education
+			</div>
+			<div class="r">
+				<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+			</div>
+		</div>
+		<div class="menuBox uppercase TitSB">
+			<div class="l">
+				<i class="fa fa-angle-right" aria-hidden="true"></i> 
+				Technologies Center
+			</div>
+			<div class="r">
+				<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+			</div>
+		</div>
+	</div>
+
+	<div class="box" id="mobileNavDropdown2">
+		<div class="text text-blue TitSB uppercase">
+			Patient Services
+		</div>
+		<div class="icon text-blue">
+			<i class="fa fa-caret-down" aria-hidden="true"></i>
+		</div>
+	</div>
+
+	<div class="expand" id="mobileNavExpand2">
+		<div class="menuBox uppercase TitSB">
+			<div class="l">
+				Patient Services
+			</div>
+			<div class="r">
+				<i class="fa fa-caret-up" aria-hidden="true"></i>
+			</div>
+		</div>
+		<div class="menuBox uppercase TitSB">
+			<div class="l">
+				<i class="fa fa-angle-right" aria-hidden="true"></i> 
+				Patient Services Articles
+			</div>
+			<div class="r">
+				<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+			</div>
+		</div>
+		<div class="menuBox uppercase TitSB">
+			<div class="l">
+				<i class="fa fa-angle-right" aria-hidden="true"></i> 
+				Research & Education
+			</div>
+			<div class="r">
+				<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+			</div>
+		</div>
+	</div>
+
+	<div class="box noBorderBottom" id="mobileNavDropdown3">
+		<div class="text text-blue TitSB uppercase">
+			Health Expert
+		</div>
+		<div class="icon text-blue">
+			<i class="fa fa-caret-down" aria-hidden="true"></i>
+		</div>
+	</div>
+
+	<div class="expand" id="mobileNavExpand3">
+		<div class="menuBox uppercase TitSB">
+			<div class="l">
+				Health Expert
+			</div>
+			<div class="r">
+				<i class="fa fa-caret-up" aria-hidden="true"></i>
+			</div>
+		</div>
+		<div class="menuBox uppercase TitSB">
+			<div class="l">
+				<i class="fa fa-angle-right" aria-hidden="true"></i> 
+				Health Articles
+			</div>
+			<div class="r">
+				<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+			</div>
+		</div>
+		<div class="menuBox uppercase TitSB">
+			<div class="l">
+				<i class="fa fa-angle-right" aria-hidden="true"></i> 
+				Research & Education
+			</div>
+			<div class="r">
+				<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+			</div>
+		</div>
+		<div class="menuBox uppercase TitSB">
+			<div class="l">
+				<i class="fa fa-angle-right" aria-hidden="true"></i> 
+				Our Technologies
+			</div>
+			<div class="r">
+				<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+			</div>
+		</div>
+	</div>
+
+	<div class="centerBox">
+		<img src="../../assets/icon/cart-grey.svg">
+		SHOP
+	</div>
+	<a href="#">
+		<div class="centerBox">
+			ภาษาไทย
+		</div>
+	</a>
+	<a href="#">
+		<div class="bottom" id="closeBottomResNav">
+			<i class="fa fa-times" aria-hidden="true"></i>
+			CLOSE
+		</div>
+	</a>
+
+</div>
+
+<!-- Big Banner -->
+<div class="banner">
+	<div class="bannerText">
+		<img src="../../assets/img/power-of-generation.png" class="logo">
+		<h2 class="text-darkblue KanM">
+			ความเหมือนในความต่าง
+		</h2>
+		<h3 class="text-darkblue KanL">
+			กับปัญหาสุขภาพของคน <br>ทุก Generation
+		</h3>
+		<div class="callToAction">
+			<button class="TitB">
+				CALL TO ACTION
+				<img src="../../assets/icon/white-arrow-right.svg" class="icon">
+			</button>
+		</div>
+	</div>
+	<img src="../../assets/icon/double-arrow-blue-down.svg" class="iconDoubleArrow only-mobile">
+	<!-- LEFT ICON -->
+	<div class="iconSet">
+		<div class="flexBox spaceTop1">
+			<a href="#">
+				<div class="box t2">
+				<div class="circleIconContainer">
+					<div class="icon">
+						<img src="../../assets/icon/bannerIcon1.svg">
+					</div>
+					<div class="outerCircle">
+						<img src="../../assets/img/bannerIconCircle.svg">
+					</div>
+				</div>
+				<div class="text TitB uppercase">
+					Trauma
+				</div>
+				</div>
+			</a>
+			<a href="#">
+				<div class="box t2">
+				<div class="circleIconContainer">
+					<div class="icon">
+						<img src="../../assets/icon/bannerIcon4.svg">
+					</div>
+					<div class="outerCircle">
+						<img src="../../assets/img/bannerIconCircle.svg">
+					</div>
+				</div>
+				<div class="text TitB uppercase">
+					Bone & Spine
+				</div>
+				</div>
+			</a>
+		</div>
+		<div class="flexBox spaceTop2">
+			<a href="#">
+				<div class="box t2">
+				<div class="circleIconContainer">
+					<div class="icon">
+						<img src="../../assets/icon/bannerIcon2.svg">
+					</div>
+					<div class="outerCircle">
+						<img src="../../assets/img/bannerIconCircle.svg">
+					</div>
+				</div>
+				<div class="text TitB uppercase">
+					Heart
+				</div>
+				</div>
+			</a>
+			<a href="#">
+				<div class="box t2">
+				<div class="circleIconContainer">
+					<div class="icon">
+						<img src="../../assets/icon/bannerIcon5.svg">
+					</div>
+					<div class="outerCircle">
+						<img src="../../assets/img/bannerIconCircle.svg">
+					</div>
+				</div>
+				<div class="text TitB uppercase">
+					Brain
+				</div>
+				</div>
+			</a>
+		</div>
+		<div class="flexBox spaceTop3">
+			<a href="#">
+				<div class="box t2">
+				<div class="circleIconContainer">
+					<div class="icon">
+						<img src="../../assets/icon/bannerIcon3.svg">
+					</div>
+					<div class="outerCircle">
+						<img src="../../assets/img/bannerIconCircle.svg">
+					</div>
+				</div>
+				<div class="text TitB uppercase">
+					Cancer
+				</div>
+				</div>
+			</a>
+			<a href="#">
+				<div class="box t2">
+				<div class="circleIconContainer">
+					<div class="icon">
+						<img src="../../assets/icon/bannerIcon6.svg" class="more">
+					</div>
+					<div class="outerCircle">
+						<img src="../../assets/img/bannerIconCircle-blue.svg">
+					</div>
+				</div>
+				<div class="text TitB uppercase moreBlue">
+					More
+				</div>
+				</div>
+			</a>
+		</div>
+	</div>
+
+	<div class="mobileIconSet only-mobile">
+		<div class="back">
+
+			<div class="mobileIconSetFlex">
+				<div class="listBox">
+					<a href="#">
+						<div class="box t2">
+						<div class="circleIconContainer">
+							<div class="icon">
+								<img src="../../assets/icon/bannerIcon1.svg">
+							</div>
+							<div class="outerCircle">
+								<img src="../../assets/img/bannerIconCircle.svg">
+							</div>
+						</div>
+						<div class="text TitSB uppercase">
+							Trauma
+						</div>
+						</div>
+					</a>
+				</div>
+				<div class="listBox">
+					<a href="#">
+						<div class="box t2">
+						<div class="circleIconContainer">
+							<div class="icon">
+								<img src="../../assets/icon/bannerIcon3.svg">
+							</div>
+							<div class="outerCircle">
+								<img src="../../assets/img/bannerIconCircle.svg">
+							</div>
+						</div>
+						<div class="text TitSB uppercase">
+							CANCER
+						</div>
+						</div>
+					</a>
+				</div>
+				<div class="listBox">
+					<a href="#">
+						<div class="box t2">
+						<div class="circleIconContainer">
+							<div class="icon">
+								<img src="../../assets/icon/bannerIcon5.svg">
+							</div>
+							<div class="outerCircle">
+								<img src="../../assets/img/bannerIconCircle.svg">
+							</div>
+						</div>
+						<div class="text TitSB uppercase">
+							Brain
+						</div>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="mobileIconSetFlex">
+				<div class="listBox">
+					<a href="#">
+						<div class="box t2">
+						<div class="circleIconContainer">
+							<div class="icon">
+								<img src="../../assets/icon/bannerIcon2.svg">
+							</div>
+							<div class="outerCircle">
+								<img src="../../assets/img/bannerIconCircle.svg">
+							</div>
+						</div>
+						<div class="text TitSB uppercase">
+							Heart
+						</div>
+						</div>
+					</a>
+				</div>
+				<div class="listBox">
+					<a href="#">
+						<div class="box t2">
+						<div class="circleIconContainer">
+							<div class="icon">
+								<img src="../../assets/icon/bannerIcon4.svg">
+							</div>
+							<div class="outerCircle">
+								<img src="../../assets/img/bannerIconCircle.svg">
+							</div>
+						</div>
+						<div class="text TitSB uppercase">
+							Bone & Spine
+						</div>
+						</div>
+					</a>
+				</div>
+				<div class="listBox">
+					<a href="#">
+						<div class="box more t2">
+						<div class="circleIconContainer">
+							<div class="icon">
+								<img src="../../assets/icon/bannerIcon6.svg">
+							</div>
+							<div class="outerCircle">
+								<img src="../../assets/img/bannerIconCircle-blue.svg">
+							</div>
+						</div>
+						<div class="text TitSB uppercase">
+							More
+						</div>
+						</div>
+					</a>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<!-- SEARCH CENTER & SYNTOMS -->
+	<div class="searchInputBar">
+
+		<div class="searchkeyupBox" id="searchkeyupBox">
+			<ul id="searchkeyupUl">
+			  <li class="TitR uppercase">
+			  	<i class="fa fa-arrow-right" aria-hidden="true"></i>
+			  	<a href="#">Adele</a>
+			  </li>
+			  <li class="TitR uppercase">
+			  	<i class="fa fa-arrow-right" aria-hidden="true"></i>
+			  	<a href="#">Agnes</a>
+			  </li>
+			  <li class="TitR uppercase">
+			  	<i class="fa fa-arrow-right" aria-hidden="true"></i>
+			  	<a href="#">Billy</a>
+			  </li>
+			  <li class="TitR uppercase">
+			  	<i class="fa fa-arrow-right" aria-hidden="true"></i>
+			  	<a href="#">Bob</a>
+			  </li>
+			  <li class="TitR uppercase">
+			  	<i class="fa fa-arrow-right" aria-hidden="true"></i>
+			  	<a href="#">Calvin</a>
+			  </li>
+			  <li class="TitR uppercase">
+			  	<i class="fa fa-arrow-right" aria-hidden="true"></i>
+			  	<a href="#">Christina</a>
+			  </li>
+			  <li class="TitR uppercase">
+			  	<i class="fa fa-arrow-right" aria-hidden="true"></i>
+			  	<a href="#">Cindy</a>
+			  </li>
+			</ul>
+		</div>
+
+		<div class="pencilIcon">
+			<img src="../../assets/icon/pencil-white.svg">
+		</div>
+		<input type="text" onkeyup="searchCenter()" class="TitB t2 uppercase" placeholder="TYPE CENTERS OR SYMTOMS" id="searchkeyupInput">
+	</div>
+
+
+	<div class="findingMenu">
+		<div class="front">
+			<div class="button t2">
+				<div class="text TitB t2 uppercase">
+					FIND DOCTOR
+				</div>
+				<div class="iconArrow">
+					<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+				</div>
+				<div class="hoverIcon t2">
+					<img src="../../assets/icon/find-doctor-hover.svg" class="size1">
+				</div>
+				<div class="gradient gd-red t2">
+				</div>
+				<div class="normalIcon">
+					<img src="../../assets/icon/find-doctor.svg" class="size1">
+				</div>
+			</div>
+			<div class="button t2">
+				<div class="text TitB t2 uppercase">
+					MAKE AN APPOINTMENT
+				</div>
+				<div class="iconArrow">
+					<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+				</div>
+				<div class="hoverIcon t2">
+					<img src="../../assets/icon/make-appointment-hover.svg" class="size2">
+				</div>
+				<div class="gradient gd-red t2">
+				</div>
+				<div class="normalIcon">
+					<img src="../../assets/icon/make-appointment.svg" class="size2">
+				</div>
+			</div>
+			<div class="button t2 bottomBorder">
+				<div class="text TitB t2 uppercase">
+					Alarm center & referral
+				</div>
+				<div class="iconArrow">
+					<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+				</div>
+				<div class="hoverIcon t2">
+					<img src="../../assets/icon/alarm-center-hover.svg" class="size2">
+				</div>
+				<div class="gradient gd-red t2">
+				</div>
+				<div class="normalIcon">
+					<img src="../../assets/icon/alarm-center.svg" class="size2">
+				</div>
+			</div>
+			<form>
+				<div class="search">
+					<img src="../../assets/icon/search-grey.svg" class="t2">
+					<input type="text" class="uppercase TitB" placeholder="What are you looking for ?">
+				</div>
+				<button class="searchButton gd-red TitB t2">
+					<div class="text">SEARCH</div>
+					<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+				</button>
+			</form>
+		</div>
+		<div class="middle">
+		</div>
+		<div class="back">
+		</div>
+
+	</div>
+
+	<div class="bannerImage" style="
+		background:url(../../assets/img/bannerImage.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;">
+	</div>
+
+	<div class="resIconSection gd-darkblue-vertical only-tablet">
+	</div>
+</div>
+
+
+<div class="brand">
+	<div class="box t2">
+		<div class="arrowRight only-mobile">
+			<i class="blue fa fa-arrow-circle-right" aria-hidden="true"></i>
+		</div>
+		<div class="section section1">
+			<img src="../../assets/img/bangkok-hospital.png" alt="">
+		</div>
+	</div>
+	<div class="box t2">
+		<div class="arrowRight only-mobile">
+			<i class="red fa fa-arrow-circle-right" aria-hidden="true"></i>
+		</div>
+		<div class="section section2">
+			<img src="../../assets/img/heart-hospital.png" alt="">
+		</div>
+	</div>
+	<div class="box t2">
+		<div class="arrowRight only-mobile">
+			<i class="orange fa fa-arrow-circle-right" aria-hidden="true"></i>
+		</div>
+		<div class="section section3">
+			<img src="../../assets/img/watanosoth-hospital.png" alt="">
+		</div>
+	</div>
+</div>
+
+
+<!-- SWITCH MENU 1 -->
+<div class="switchMenu">
+	<div class="switchLineMobile red"></div>
+	<div class="menu" id="switchMenu1">
+		<div class="box borderBottom">
+			<div class="text uppercase TitB text-red rightBorder t3" id="CentersOfExcellence">
+				Centers of Excellence
+			</div>
+		</div>
+		<div class="box"> 
+			<div class="text uppercase TitB text-blue t3" id="healthExpert">
+				health expert
+			</div>
+		</div>
+		<img class="redArrow t3" src="../../assets/icon/redArrow-forswitchimage.svg">
+	</div>
+	<div class="switchLine bg-red"></div>
+
+
+	<!-- FOT DESKTOP -->
+
+	<div class="imageSet only-desktop">
+		<a href="#">
+			<div class="moreButton red t2">
+				<i class="fa fa-plus" aria-hidden="true"></i>
+				<br>
+				<div class="text">MORE</div>
+			</div>
+		</a>
+		<div class="image">
+			<div class="hoverSection">
+				<div class="box t3">
+					<img src="../../assets/icon/arrowCircleforSwitchMenu.svg" class="front">
+					<div class="back"></div>
+				</div>
+				<div class="box t3">
+					<img src="../../assets/icon/arrowCircleforSwitchMenu.svg" class="front">
+					<div class="back"></div>
+				</div>
+				<div class="box t3">
+					<img src="../../assets/icon/arrowCircleforSwitchMenu.svg" class="front">
+					<div class="back"></div>
+				</div>
+			</div>
+			<div class="filterColor gd-pink-purple"></div>
+			<div class="box" style="
+				background: url(../../assets/img/mockup1-imageforswitchimage.jpg);
+				background-repeat: no-repeat;
+				background-size: cover;">
+			</div>
+			<div class="box" style="
+				background: url(../../assets/img/mockup2-imageforswitchimage.jpg);
+				background-repeat: no-repeat;
+				background-size: cover;">
+			</div>
+			<div class="box" style="
+				background: url(../../assets/img/mockup3-imageforswitchimage.jpg);
+				background-repeat: no-repeat;
+				background-size: cover;">
+			</div>
+		</div>
+		<div class="text">
+			<div class="box boxColor1">
+				<div class="arrowBoxColor1 rotate-45"></div>
+				<h2 class="TitB text-red">Center 01</h2>
+				<div class="description TitL">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nisl orci, venenatis id tempus qui.
+				</div>
+			</div>
+			<div class="box boxColor2">
+				<div class="arrowBoxColor2 rotate-45"></div>
+				<h2 class="TitB text-red">Center 02</h2>
+				<div class="description TitL">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nisl orci, venenatis id tempus quis… 
+				</div>
+			</div>
+			<div class="box boxColor1">
+				<div class="arrowBoxColor1 rotate-45"></div>
+				<h2 class="TitB text-red">Center 03</h2>
+				<div class="description TitL">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nisl orci, venenatis id tempus qui.
+				</div>
+			</div>
+		</div>
+		<div class="button">
+			<div class="box boxColor1">
+				<button class="TitB gd-red t3">Learn more</button>
+			</div>
+			<div class="box boxColor2">
+				<button class="TitB gd-red t3">Learn more</button>
+			</div>
+			<div class="box boxColor1">
+				<button class="TitB gd-red t3">Learn more</button>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- FOR TABLET & MOBILE -->
+
+	<div class="imageSetTablet">
+		<div class="boxContainer">
+			<section class="regular slider">
+				<div class="box">
+					<div class="leftSection">
+						<div class="arrowLeft rotate-45">
+						</div>
+						<div class="filterColor gd-pink-purple"></div>
+						<img src="../../assets/img/mockup1-imageforswitchimage.jpg">
+					</div>
+					<div class="rightSection">
+						<h2 class="TitB text-red">Center 01</h2>
+						<div class="description TitL">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nisl …
+						</div>
+						<button class="gd-red TitB">
+						Learn more
+						</button>
+					</div>
+				</div>
+				<div class="box">
+					<div class="leftSection">
+						<div class="arrowLeft rotate-45">
+						</div>
+						<div class="filterColor gd-pink-purple"></div>
+						<img src="../../assets/img/mockup2-imageforswitchimage.jpg">
+					</div>
+					<div class="rightSection">
+						<h2 class="TitB text-red">Center 02</h2>
+						<div class="description TitL">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nisl …
+						</div>
+						<button class="gd-red TitB">
+						Learn more
+						</button>
+					</div>
+				</div>
+				<div class="box">
+					<div class="leftSection">
+						<div class="arrowLeft rotate-45">
+						</div>
+						<div class="filterColor gd-pink-purple"></div>
+						<img src="../../assets/img/mockup3-imageforswitchimage.jpg">
+					</div>
+					<div class="rightSection">
+						<h2 class="TitB text-red">Center 03</h2>
+						<div class="description TitL">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nisl …
+						</div>
+						<button class="gd-red TitB">
+						Learn more
+						</button>
+					</div>
+				</div>
+			</section>
+		</div>
+	</div>
+
+</div>
+<!-- END -->
+
+
+<!-- INSIGHT NUMBER -->
+<div class="insightNumber">
+	<div class="title">
+		<h1 class="TitB">Why Bangkok Hospital?</h1>
+		<div class="line"></div>
+		<div class="description TitEL">
+			a premier healthcare provider, dedicated to international quality, customer focused care.
+		</div>
+		<img src="../../assets/icon/white-arrow-down.svg" class="arrow">
+	</div>
+	<div class="insight">
+		<div class="box boxColor1">
+			<div class="number TitB" id="countYear">
+				20
+			</div>
+			<div class="text TitEL">
+				Years of caring
+			</div>
+		</div>
+		<div class="box boxColor2">
+			<div class="number TitB">
+				<span id="countDoctor">4000</span>+
+			</div>
+			<div class="text TitEL">
+				specialized doctors
+			</div>
+		</div>
+		<div class="box boxColor3">
+			<div class="number TitB">
+				<span id="countCase">500000</span>+
+			</div>
+			<div class="text TitEL">
+				success cases
+			</div>
+		</div>
+	</div>
+</div>
+<!-- END -->
+
+<!-- SWITCH MENU 2 -->
+<div class="switchMenu package">
+	<div class="switchLineMobile blue"></div>
+	<div class="menu">
+		<div class="box">
+			<div class="text rightBorder text-lightblue TitB uppercase">
+				<img src="../../assets/icon/package-blue.svg" class="packageIcon">
+				Packages & <br class="only-mobile">promotions
+			</div>
+		</div>
+		<div class="box hospitalShop">
+			<div class="text text-lightred TitB uppercase">
+				<img src="../../assets/icon/cart-red.svg" class="cartIcon">
+				HOSPITAL SHOP
+				<img src="../../assets/icon/arrow-red-leg-right.svg" class="legarrowIcon">
+			</div>
+		</div>
+		<img class="redArrow" src="../../assets/icon/blueArrow-forswitchimage.svg">
+	</div>
+	<div class="switchLine bg-blue"></div>
+	<div class="imageSet only-desktop">
+		<a href="#">
+			<div class="moreButton blue t2">
+				<i class="fa fa-plus" aria-hidden="true"></i>
+				<br>
+				<div class="text">MORE</div>
+			</div>
+		</a>
+		<div class="image">
+			<div class="hoverSection">
+				<div class="box t3">
+					<img src="../../assets/icon/arrowCircleforSwitchMenu.svg" class="front">
+					<div class="back"></div>
+				</div>
+				<div class="box t3">
+					<img src="../../assets/icon/arrowCircleforSwitchMenu.svg" class="front">
+					<div class="back"></div>
+				</div>
+				<div class="box t3">
+					<img src="../../assets/icon/arrowCircleforSwitchMenu.svg" class="front">
+					<div class="back"></div>
+				</div>
+			</div>
+			<div class="filterColor bg-darkblue"></div>
+			<div class="box" style="
+				background: url(../../assets/img/mockup4-imageforswitchimage.jpg);
+				background-repeat: no-repeat;
+				background-size: cover;">
+			</div>
+			<div class="box" style="
+				background: url(../../assets/img/mockup5-imageforswitchimage.jpg);
+				background-repeat: no-repeat;
+				background-size: cover;">
+			</div>
+			<div class="box" style="
+				background: url(../../assets/img/mockup6-imageforswitchimage.jpg);
+				background-repeat: no-repeat;
+				background-size: cover;">
+			</div>
+		</div>
+		<div class="text">
+			<div class="box boxColor1">
+				<div class="arrowBoxColor1 rotate-45"></div>
+				<h2 class="TitB text-lightblue">
+					Duis eu consequat justo, ac imperdiet lacus.
+				</h2>
+				<div class="description TitL">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nisl orci, venenatis id tempus qui.
+				</div>
+			</div>
+			<div class="box boxColor2">
+				<div class="arrowBoxColor2 rotate-45"></div>
+				<h2 class="TitB text-lightblue">
+					Sed non euismod mi. vitae elit pretium placerat.
+				</h2>
+				<div class="description TitL">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nisl orci, venenatis id tempus quis… 
+				</div>
+			</div>
+			<div class="box boxColor1">
+				<div class="arrowBoxColor1 rotate-45"></div>
+				<h2 class="TitB text-lightblue">
+					Vivamus eget interdum orci, id feugiat neque.
+				</h2>
+				<div class="description TitL">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nisl orci, venenatis id tempus qui.
+				</div>
+			</div>
+		</div>
+		<div class="button">
+			<div class="box boxColor1">
+				<button class="TitB bg-lightblue t3">
+					<div class="l">
+						More details
+					</div>
+					<div class="r">
+						<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+					</div>
+				</button>
+			</div>
+			<div class="box boxColor2">
+				<button class="TitB bg-lightblue t3">
+					<div class="l">
+						More details
+					</div>
+					<div class="r">
+						<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+					</div>
+				</button>
+			</div>
+			<div class="box boxColor1">
+				<button class="TitB bg-lightblue t3">
+					<div class="l">
+						More details
+					</div>
+					<div class="r">
+						<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+					</div>
+				</button>
+			</div>
+		</div>
+	</div>
+	<div class="imageSetTablet">
+		<div class="boxContainer">
+			<section class="regular slider">
+				<div class="box">
+					<div class="leftSection">
+						<div class="arrowLeft rotate-45">
+						</div>
+						<div class="filterColor bg-darkblue"></div>
+						<img src="../../assets/img/mockup4-imageforswitchimage.jpg">
+					</div>
+					<div class="rightSection">
+						<h2 class="TitB text-lightblue">Package 01</h2>
+						<div class="description TitL">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nisl …
+						</div>
+						<button class="bg-lightblue TitB">
+							<div class="l">
+								More details
+							</div>
+							<div class="r">
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+							</div>
+						</button>
+					</div>
+				</div>
+				<div class="box">
+					<div class="leftSection">
+						<div class="arrowLeft rotate-45">
+						</div>
+						<div class="filterColor bg-darkblue"></div>
+						<img src="../../assets/img/mockup5-imageforswitchimage.jpg">
+					</div>
+					<div class="rightSection">
+						<h2 class="TitB text-lightblue">Package 02</h2>
+						<div class="description TitL">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nisl …
+						</div>
+						<button class="bg-lightblue TitB">
+							<div class="l">
+								More details
+							</div>
+							<div class="r">
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+							</div>
+						</button>
+					</div>
+				</div>
+				<div class="box">
+					<div class="leftSection">
+						<div class="arrowLeft rotate-45">
+						</div>
+						<div class="filterColor bg-darkblue"></div>
+						<img src="../../assets/img/mockup6-imageforswitchimage.jpg">
+					</div>
+					<div class="rightSection">
+						<h2 class="TitB text-lightblue">Package 03</h2>
+						<div class="description TitL">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nisl …
+						</div>
+						<button class="bg-lightblue TitB">
+							<div class="l">
+								More details
+							</div>
+							<div class="r">
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+							</div>
+						</button>
+					</div>
+				</div>
+			</section>
+		</div>
+	</div>
+</div>
+<!-- END -->
+
+<div class="hospitalShopButton only-mobile">
+	<button>
+		<div class="icon">
+			<img src="../../assets/icon/cart-red.svg">
+		</div>
+		<div class="text TitB">
+			HOSPITAL SHOP
+		</div>
+	</button>
+</div>
+
+<!-- TABLE CONTENT -->
+<div class="tableContent">
+	<div class="box dotTop dotRight">
+		<img src="../../assets/icon/arrow-circle-right-leg-blue.svg" class="only-mobile rightBlueArrow">
+		<div class="content">
+			<div class="leftSection">
+				<img src="../../assets/img/patiemt-story.png">
+			</div>
+			<div class="rightSection">
+				<div class="title TitR">
+					Patient's Story
+				</div>
+				<div class="description TitR">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu ipsum rhoncus.
+				</div>
+				<div class="button uppercase TitB t2">
+					Read more
+					<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="box dotTop">
+		<img src="../../assets/icon/arrow-circle-right-leg-blue.svg" class="only-mobile rightBlueArrow">
+		<div class="content">
+			<div class="leftSection">
+				<img src="../../assets/img/atom.svg">
+			</div>
+			<div class="rightSection">
+				<div class="title TitR">
+					Our Technology
+				</div>
+				<div class="description TitR">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu ipsum rhoncus.
+				</div>
+				<div class="button uppercase TitB t2">
+					Learn More
+					<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="box dotTop dotRight">
+		<img src="../../assets/icon/arrow-circle-right-leg-blue.svg" class="only-mobile rightBlueArrow">
+		<div class="content">
+			<div class="leftSection">
+				<img src="../../assets/img/bird-eye-view.svg">
+			</div>
+			<div class="rightSection">
+				<div class="title TitR birdEyes">
+					Bangkok Hospital Medical Center’s <br class="only-mobile">Bird Eyes View
+				</div>
+				<div class="description TitR">
+				</div>
+				<div class="button uppercase TitB t2">
+					TAKE A TOUR
+					<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="box dotTop getDirection">
+		<div class="resIcon only-mobile">
+			<i class="fa fa-map-marker" aria-hidden="true"></i>
+		</div>
+		<div class="content">
+			<div class="leftSection">
+				<img src="../../assets/img/direction.svg">
+			</div>
+			<div class="rightSection">
+				<div class="title TitR">
+					Get direction
+				</div>
+				<div class="description TitR">
+				</div>
+				<div class="button uppercase TitB t2">
+					TRAVEL INFORMATION
+					<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+				</div>
+				<div class="button uppercase TitB t2">
+					Open in Google Maps
+					<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="box dotTop fluid accreditations">
+		<div class="middleTitle TitR">
+			Accreditations & Awards 
+		</div>
+		<div class="image">
+			<img src="../../assets/img/accredition1.png" class="image1">
+			<img src="../../assets/img/accredition2.png" class="image2">
+			<img src="../../assets/img/accredition3.png" class="image3">
+			<img src="../../assets/img/accredition4.png" class="image4">
+		</div>
+	</div>
+</div>
+<!-- END -->
+
+
+<div class="subscribe">
+	<div class="resIcon only-mobile">
+		<i class="fa fa-envelope" aria-hidden="true"></i>
+	</div>
+	<h2 class="TitR">Subscribe to our e-newsletter</h2>
+	<div class="description TitR">
+		Update health information, package and promotion
+	</div>
+	<div class="emailBox">
+		<div class="icon">
+			<img src="../../assets/icon/email-blue.svg">
+		</div>
+		<div class="inputBox">
+			<input type="text" placeholder="EMAIL" class="TitB">
+		</div>
+		<button class="t2">
+			<i class="fa fa-check" aria-hidden="true"></i>
+		</button>
+	</div>
+</div>
+
+
+<footer>
+	<div class="shapePolygon">
+		<div class="mobileContent only-mobile TitB">
+			<i class="fa fa-caret-down" aria-hidden="true"></i>
+			<select onchange="location = this.value;" class="uppercase TitB">
+				<option value="#">Quick View</option>
+				<option value="#">About us</option>
+				<option value="#">Investor Relations</option>
+				<option value="#">Awards & Accreditations</option>
+				<option value="#">Job Opportunities</option>
+				<option value="#">Contact us</option>
+				<option value="#">Health Expert</option>
+				<option value="#">Diseases & Treatment</option>
+				<option value="#">Health Tips</option>
+				<option value="#">Medical Research & Education</option>
+				<option value="#">Health Brings Wealth</option>
+				<option value="#">The Bangkok Medical Journal</option>
+			</select>
+		</div>
+		<div class="socialIcon">
+			<a href="#">
+				<img src='../../assets/icon/social/facebook.svg'>
+			</a>
+			<a href="#">
+				<img src='../../assets/icon/social/youtube.svg'>
+			</a>
+			<a href="#">
+				<img src='../../assets/icon/social/twitter.svg'>
+			</a>
+			<a href="#">
+				<img src='../../assets/icon/social/instagram.svg'>
+			</a>
+			<a href="#">
+				<img src='../../assets/icon/social/google-plus.svg'>
+			</a>
+		</div>
+		<div class="mobileContent only-mobile TitL languageSelector">
+			<span class="box TitB">ภาษาไทย</span>
+			&nbsp;&nbsp;|&nbsp;&nbsp;
+			<span class="box active TitB">English</span>
+		</div>
+		<div class="content">
+			<div class="flexBox">
+				<h2 class="TitB">Bangkok Hospital</h2>
+				<div class="direction">
+					<div class="icon">
+						<i class="fa fa-map-marker" aria-hidden="true"></i>
+					</div>
+					<div class="inputBox">
+						<input type="text" placeholder="GET DIRECTION">
+					</div>
+					<button class="t2">
+						<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+					</button>
+				</div>
+				<p class="TitL">
+					2 Soi Soonvijai 7, New Petchburi Rd.,
+					Huaykwang, Bangkok 10310 Thailand
+				</p>
+				<p class="TitL">
+					info@bdms.in.th
+				</p>
+			</div>
+			<div class="flexBox">
+				<h2 class="TitB">About us</h2>
+				<p class="TitL">
+					<a href="#">Investor Relations</a><br>
+					<a href="#">Awards &  Accreditations</a><br>  
+					<a href="#">Job Opportunities</a><br>
+					<a href="#">Contact us</a>
+				</p>
+			</div>
+			<div class="flexBox">
+				<h2 class="TitB">Health Expert</h2>
+				<p class="TitL">
+					<a href="#">Diseases & Treatment</a><br>
+					<a href="#">Health Tips</a><br>
+					<a href="#">Medical Research & Education</a><br>
+					<a href="#">Health Brings Wealth</a><br>
+					<a href="#">The Bangkok Medical Journal</a>
+				</p>
+			</div>
+		</div>
+		<div class="content">
+			<div class="flexBox">
+				<h2 class="TitB">Center of excellence</h2>
+				<p class="TitL">
+					<a href="#">Heart</a><br>
+					<a href="#">Cancer</a><br>
+					<a href="#">Bone and Joint</a><br>
+					<a href="#">Brain</a><br>
+					<a href="#">Trauma Center</a><br>
+					<a href="#">Dental</a><br>
+					<a href="#">Treatment & Technology </a>
+				</p>
+			</div>
+			<div class="flexBox">
+				<h2 class="TitB">Patient Services</h2>
+				<p class="TitL">
+					<a href="#">Find Doctors</a><br>
+					<a href="#">Make an Appointment</a><br>
+					<a href="#">Packages and Promotions</a><br>
+					<a href="#">Online Consult</a><br>
+					<a href="#">Find Network Hospitals</a>
+				</p>
+			</div>
+			<div class="flexBox">
+				<h2 class="TitB">Link Suggestions</h2>
+				<p class="TitL">
+					<a href="#">GERD</a><br>
+					<a href="#">Coronary Artery Disease</a><br>
+					<a href="#">Herniated Disc</a><br>
+					<a href="#">Liver Cancer</a><br>
+					<a href="#">Knee Replacement Surgery</a><br>
+					<a href="#">Cancer Radiosurgery - EDGE</a>
+				</p>
+			</div>
+		</div>
+		<div class="languageSelector TitL only-desktop">
+			<span class="box TitB">ภาษาไทย</span>&nbsp;&nbsp;|&nbsp;&nbsp;<span class="box active TitB">English</span>
+		</div>
+		<div class="tabletContent only-tablet">
+			<div class="box rightDashBorder quickMenu TitB">
+				<i class="fa fa-caret-down" aria-hidden="true"></i>
+				<select onchange="location = this.value;" class="uppercase TitB">
+					<option value="#">Quick View</option>
+					<option value="#">About us</option>
+					<option value="#">Investor Relations</option>
+					<option value="#">Job Opportunities</option>
+					<option value="#">Contact us</option>
+					<option value="#">Health Expert</option>
+					<option value="#">Diseases & Treatment</option>
+					<option value="#">Health Tips</option>
+					<option value="#">Health Brings Wealth</option>
+				</select>
+			</div>
+			<div class="box">
+				<div class="languageSelector TitL">
+					<span class="resBox TitB">ภาษาไทย</span>&nbsp;&nbsp;|&nbsp;&nbsp;<span class="resBox active TitB">English</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="bottom">
+		<h3 class="TitL">
+			<a href="#">Sitemap</a><span class="slice">|</span>
+			<a href="#">Privacy Policy</a><span class="slice">|</span>
+			<a href="#">Terms & Conditions</a>
+		</h3>
+		<h2 class="TitL">
+			Copyright © 2017 Bangkok Hospital All rights reserved
+		</h2>
+	</div>
+</footer>
+
+
+<script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../js/megamenu.js"></script>
+<script src="../../js/changeLanguageModal.js"></script>
+<script src="../../js/countupInsight.js"></script>
+<script src="../../js/searchCenter.js"></script>
+<script src="../../js/searchNav.js"></script>
+<script src="../../js/switchMenu1.js"></script>
+
+<script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+.hospitalShopButton
+{
+	float: left;
+	padding: 10px;
+	width: 100%;
+}
+
+.hospitalShopButton button
+{
+	border-radius: 6px;
+	border:3px #CD0000 solid;
+	background-color: transparent;
+	width: 100%;
+	height: 120px;
+	outline: none;
+}
+
+.hospitalShopButton button .icon
+{
+	display: inline-block;
+	margin-right: 2vw;
+	vertical-align: middle;
+}
+
+.hospitalShopButton button .icon img
+{
+	width: 15vw;
+}
+
+.hospitalShopButton button .text
+{
+	display: inline-block;
+	font-size: 5vw;
+	color: #EC1C24;
+	letter-spacing: 1.56px;
+}

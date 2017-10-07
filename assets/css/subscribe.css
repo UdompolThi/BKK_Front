@@ -1,0 +1,140 @@
+.subscribe
+{
+	width: 100%;
+	float: left;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+	.subscribe h2
+	{
+		font-size: 2.4rem;
+		color: #0072BB;
+		width: 100%;
+		text-align: center;
+	}
+
+	.subscribe .description
+	{
+		font-size: 1.3rem;
+		color: #0072BB;
+		width: 100%;
+		text-align: center;
+		margin-top: 15px;
+	}
+
+	.subscribe .emailBox
+	{
+		width: 462px;
+		height: 45px;
+		border:1px #0072BB solid;
+		position: relative;
+		left: 50%;
+		margin-left: -231px;
+		margin-top: 20px;
+		border-radius: 7px;
+		overflow: hidden;
+	}
+
+	.subscribe .emailBox .icon
+	{
+		float: left;
+		width: 10%;
+		line-height: 43px;
+		vertical-align: middle;
+		text-align: right;
+	}
+	.subscribe .emailBox .inputBox
+	{
+		float: left;
+		width: 80%;
+		height: 100%;
+	}
+
+	.subscribe .emailBox .inputBox input
+	{
+		width: 100%;
+		height: 100%;
+		border:	0px;
+		text-indent: 1rem;
+		color: #529FD1;
+		outline: none;
+		font-size: 1.4rem;
+		line-height: 43px;
+		letter-spacing: 0.86px;
+	}
+
+	.subscribe .emailBox .inputBox ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+	  color: #529FD1;
+	}
+	.subscribe .emailBox .inputBox ::-moz-placeholder { /* Firefox 19+ */
+	  color: #529FD1;
+	}
+	.subscribe .emailBox .inputBox :-ms-input-placeholder { /* IE 10+ */
+	  color: #529FD1;
+	}
+	.subscribe .emailBox .inputBox :-moz-placeholder { /* Firefox 18- */
+	  color: #529FD1;
+	}
+
+	.subscribe .emailBox button
+	{
+		float: left;
+		width: 10%;
+		background-color: #0072BB;
+		color: #fff;
+		border:0px;
+		height: 100%;
+		font-size: 2.4rem;
+		outline: none;
+		cursor: pointer;
+	}
+
+	.subscribe .emailBox button:hover
+	{
+		background-color: #529FD1;
+	}
+
+@media only screen and (max-width : 768px) {
+	.subscribe
+	{
+		width: 100%;
+		height: 70px;
+		float: left;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		padding-left: 20px;
+		border-top: 3px #3197FF solid;
+		position: relative;
+	}
+	.subscribe .resIcon
+	{
+		position: absolute;
+		color: #3197FF;
+		font-size: 2rem;
+		height: 70px;
+		line-height: 70px;
+	}
+	.subscribe h2
+	{
+		font-size: 1.8rem;
+		line-height: 70px;
+		color: #3197FF;
+		width: 100%;
+		text-align: left;
+		font-family: TitB !important;
+		text-transform: uppercase;
+		letter-spacing: 0.13px;
+		margin-left: 35px;
+	}
+	.subscribe .description
+	{
+		display: none;
+	}
+
+	.subscribe .emailBox
+	{
+		display: none;
+	}
+
+}

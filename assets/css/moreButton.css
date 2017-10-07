@@ -1,0 +1,50 @@
+.moreButton
+{
+	width: 90px;
+	height: 100px;
+	background-color: #fff;
+	position: absolute;
+	z-index: 300;
+	right: 0px;
+	top: 50%;
+	margin-top: -50px;
+	border-top-left-radius: 9px;
+	border-bottom-left-radius: 9px;
+	-webkit-box-shadow: 0px 4px 10px -1px rgba(0,0,0,0.20);
+	-moz-box-shadow: 0px 4px 10px -1px rgba(0,0,0,0.20);
+	box-shadow: 0px 4px 10px -1px rgba(0,0,0,0.20);
+	text-align: center;
+	font-family: TitB;
+	padding-top: 24px;
+	cursor: pointer;
+}
+
+	.moreButton.blue
+	{
+		color: #3197FF;
+	}
+
+	.moreButton.blue:hover
+	{
+		color: #31C7FF;
+	}
+
+	.moreButton.red
+	{
+		color: #CD0000;
+	}
+
+	.moreButton.red:hover
+	{
+		color: #FF6C6C;
+	}
+
+.moreButton i
+{
+	font-size: 3.2rem;
+}
+
+.moreButton .text
+{
+	font-size: 1.4rem;
+}

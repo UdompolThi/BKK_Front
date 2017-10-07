@@ -1,0 +1,308 @@
+.tableContent
+{
+	border-bottom: 1px #0072BB dotted;
+	width: 100%;
+	float: left;
+}
+
+.tableContent .box
+{
+	width: 50%;
+	height: 210px;
+	float: left;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.tableContent .box .content
+{
+	display: flex;
+}
+
+.tableContent .box .content .leftSection
+{
+	-webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.tableContent .box .content .leftSection img
+{
+	width: 10vw;
+}
+
+.tableContent .box .content .rightSection
+{
+	-webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+}
+
+.tableContent .box .content .rightSection .title
+{
+	font-size: 2.4rem;
+	color: #0072BB;
+	line-height: 3.0rem;
+}
+
+.tableContent .box .content .rightSection .description
+{
+	font-size: 1.3rem;
+	line-height: 1.7rem;
+	color: #0072BB;
+	margin-top: 10px;
+}
+
+.tableContent .box .content .rightSection .button
+{
+	font-size: 1.6rem;
+	color: #0072BB;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+	.tableContent .box .content .rightSection .button:hover
+	{
+		color: #3197FF;
+	}
+
+.tableContent .box .content .rightSection i
+{
+	margin-left: 10px;
+}
+
+.tableContent .middleTitle
+{
+	width: 100%;
+	font-size: 2.4rem;
+	color: #0072BB;
+	text-align: center;
+}
+
+.tableContent .image
+{
+	width: 100%;
+	text-align: center;
+}
+
+.tableContent .image img
+{
+	margin-left: 35px;
+	margin-right: 35px;
+}
+
+.tableContent .image .image1
+{
+	width: 63px;
+}
+
+.tableContent .image .image2
+{
+	width: 66px;
+}
+
+.tableContent .image .image3
+{
+	width: 154.04px;
+}
+
+.tableContent .image .image4
+{
+	width: 165px;
+}
+
+.tableContent .dotLeft { border-left: 1px #0072BB dotted; }
+.tableContent .dotRight { border-right: 1px #0072BB dotted; }
+.tableContent .dotTop { border-top: 1px #0072BB dotted; }
+.tableContent .dotBottom { border-bottom: 1px #0072BB dotted; }
+
+
+
+
+@media only screen and (min-width : 768px) and (max-width : 992px) {
+    .tableContent .box
+	{
+		width: 100%;
+		height: 22vw;
+		float: none;
+		padding-top: 32px;
+		padding-bottom: 32px;
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+	.tableContent .dotLeft { border-left: 0px #0072BB dotted; }
+	.tableContent .dotRight { border-right: 0px #0072BB dotted; }
+
+	.tableContent .accreditations
+	{
+		width: 100%;
+		height: 14vw;
+		float: left;
+		padding-top: 2.8vw;
+		padding-bottom: 2.8vw;
+		padding-left: 6vw;
+		padding-right: 0vw;
+	}
+
+	.tableContent .accreditations .middleTitle
+	{
+		width: 20%;
+		font-size: 2.6vw;
+		line-height: 3.4vw;
+		color: #0072BB;
+		text-align: left;
+		float: left;
+		padding-top: 0.8vw;
+	}
+
+	.tableContent .box .content .leftSection img
+	{
+		width: 14.5vw;
+	}
+
+	.tableContent .image
+	{
+		width: 80%;
+		text-align: center;
+		float: left;
+		text-align: left;
+	}
+
+	.tableContent .image img
+	{
+		margin-left: 7vw;
+		margin-right: 0vw;
+	}
+
+	.tableContent .image .image1
+	{
+		width: 6vw;
+	}
+
+	.tableContent .image .image2
+	{
+		width: 6vw;
+	}
+
+	.tableContent .image .image3
+	{
+		width: 12vw;
+	}
+
+	.tableContent .image .image4
+	{
+		width: 12vw;
+	}
+
+
+}
+
+@media only screen and (max-width : 768px) {
+    .tableContent .box
+	{
+		width: 100%;
+		height: 70px;
+		float: none;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		padding-left: 20px;
+		padding-right: 0px;
+		position: relative;
+	}
+
+	.tableContent .getDirection
+	{
+		border-top:3px #3197FF solid !important;
+		width: 100%;
+		height: 70px;
+		float: left;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		padding-left: 20px;
+		border-top: 3px #3197FF solid;
+		position: relative;
+	}
+
+	.tableContent .getDirection .title
+	{
+		font-size: 1.8rem;
+		line-height: 70px;
+		color: #3197FF !important;
+		width: 100%;
+		text-align: left;
+		font-family: TitB !important;
+		text-transform: uppercase;
+		letter-spacing: 0.13px;
+		margin-left: 35px;
+	}
+
+	.tableContent .getDirection .resIcon
+	{
+		position: absolute;
+		color: #3197FF;
+		font-size: 3rem;
+		height: 70px;
+		line-height: 70px;
+	}
+
+	.tableContent .dotLeft { border-left: 0px #0072BB dashed; }
+	.tableContent .dotRight { border-right: 0px #0072BB dashed; }
+	.tableContent .dotTop { border-top: 1px #0072BB dashed; }
+	.tableContent .dotBottom { border-bottom: 1px #0072BB dashed; }
+
+	.tableContent .accreditations
+	{
+		display: none;
+	}
+
+	.tableContent .box .content .leftSection
+	{
+		display: none;
+	}
+
+	.tableContent .box .content .rightSection .description
+	{
+		display: none;
+	}
+
+	.tableContent .box .content .rightSection
+	{
+		-webkit-flex: 1;
+	    -ms-flex: 1;
+	    flex: 1;
+	}
+
+	.tableContent .box .rightBlueArrow
+	{
+		position: absolute;
+		height: 26px;
+		right: 15px;
+		top: 50%;
+		margin-top: -13px;
+	}
+
+	.tableContent .box .content .rightSection .title
+	{
+		font-size: 1.8rem;
+		color: #0072BB;
+		line-height: 70px;
+		width: 90%;
+	}
+
+	.tableContent .box .content .rightSection .birdEyes
+	{
+		font-size: 1.8rem;
+		color: #0072BB;
+		line-height: 2.2rem;
+		padding-top: 13px;
+		width: 90%;
+	}
+
+	.tableContent .box .content .rightSection .button
+	{
+		display: none;
+	}
+
+}

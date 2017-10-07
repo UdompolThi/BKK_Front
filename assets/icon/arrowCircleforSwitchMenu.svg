@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128px" height="128px" viewBox="0 0 128 128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 20</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Hover-&amp;-Focus-Effect" transform="translate(-100.000000, -1440.000000)">
+            <g id="Group-19" transform="translate(0.000000, 1340.000000)">
+                <g id="Group-20" transform="translate(101.000000, 101.000000)">
+                    <ellipse id="Oval-8-Copy-4" stroke="#FFFFFF" stroke-width="3" stroke-dasharray="2,1" cx="62.7232497" cy="62.8213474" rx="54.9668975" ry="54.8490392"></ellipse>
+                    <ellipse id="Oval-9-Copy-4" stroke="#FFFFFF" opacity="0.300489739" cx="63.0321636" cy="62.8991591" rx="63.0321636" ry="62.8991591"></ellipse>
+                    <text id="fa-arrow-right" font-family="FontAwesome" font-size="36" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="50" y="75"></tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

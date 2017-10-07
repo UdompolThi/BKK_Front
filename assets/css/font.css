@@ -1,0 +1,50 @@
+/*ENGLISH*/
+
+@font-face {
+font-family: TitEL;
+    src: url('../font/Titillium/TitilliumWeb-ExtraLight.ttf');
+}
+
+@font-face {
+font-family: TitL;
+    src: url('../font/Titillium/TitilliumWeb-Light.ttf');
+}
+
+@font-face {
+font-family: TitR;
+    src: url('../font/Titillium/TitilliumWeb-Regular.ttf');
+}
+
+@font-face {
+font-family: TitSB;
+    src: url('../font/Titillium/TitilliumWeb-SemiBold.ttf');
+}
+
+@font-face {
+font-family: TitB;
+    src: url('../font/Titillium/TitilliumWeb-Bold.ttf');
+}
+
+@font-face {
+font-family: TitBL;
+    src: url('../font/Titillium/TitilliumWeb-Black.ttf');
+}
+
+@font-face {
+font-family: FontAwesome;
+    src: url('../font/Font-awesome/fonts/fontawesome-webfont.ttf');
+}
+
+
+/*THAI*/
+
+@font-face {
+font-family: KanM;
+    src: url('../font/Kanit/Kanit-Medium.ttf');
+}
+
+@font-face {
+font-family: KanL;
+    src: url('../font/Kanit/Kanit-Light.ttf');
+}
+

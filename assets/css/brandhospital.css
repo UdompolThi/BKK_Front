@@ -1,0 +1,178 @@
+.brand
+{
+	width: 100%;
+	height: 153px;
+	margin-top: 10px;
+}
+
+.brand .box
+{
+	width: 33.33333334%;
+	height: 153px;
+	float: left;
+	position: relative;
+	padding-left: 10px;
+	padding-right: 10px;
+	cursor: pointer;
+}
+
+.brand .box:hover
+{
+	opacity: 0.7;
+}
+
+.brand .section
+{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	line-height: 133px;
+}
+
+.brand .section img
+{
+	height: 52px;
+}
+
+.brand .box .section1
+{
+	border-top: 10px #0072BB solid;
+	border-bottom: 10px #0072BB solid;
+}
+.brand .box .section2
+{
+	border-top: 10px #F80057 solid;
+	border-bottom: 10px #F80057 solid;
+}
+.brand .box .section3
+{
+	border-top: 10px #FF701C solid;
+	border-bottom: 10px #FF701C solid;
+}
+
+@media only screen and (min-width : 768px) and (max-width : 992px) {
+    .brand
+	{
+		width: 100%;
+		height: 117px;
+	}
+    .brand .box
+	{
+		width: 33.33333334%;
+		height: 117px;
+		float: left;
+		position: relative;
+		padding-left: 10px;
+		padding-right: 10px;
+		cursor: pointer;
+	}
+	.brand .section
+	{
+		width: 100%;
+		height: 100%;
+		text-align: center;
+		line-height: 97px;
+	}
+
+	.brand .section img
+	{
+		height: 36px;
+	}
+
+	.brand .box .section1
+	{
+		border-top: 7px #0072BB solid;
+		border-bottom: 7px #0072BB solid;
+	}
+	.brand .box .section2
+	{
+		border-top: 7px #F80057 solid;
+		border-bottom: 7px #F80057 solid;
+	}
+	.brand .box .section3
+	{
+		border-top: 7px #FF701C solid;
+		border-bottom: 7px #FF701C solid;
+	}
+}
+
+@media only screen and (max-width : 768px) {
+    .brand
+	{
+		width: 100%;
+		height: auto;
+		margin-top: 0px;
+	}
+
+	.brand .box
+	{
+		width: 100%;
+		height: 60px;
+		float: left;
+		position: relative;
+		padding-left: 0px;
+		padding-right: 0px;
+		cursor: pointer;
+	}
+
+	.brand .box .arrowRight .blue
+	{
+		color: #0072BB;
+	}
+
+	.brand .box .arrowRight .red
+	{
+		color: #F80057;
+	}
+
+	.brand .box .arrowRight .orange
+	{
+		color: #FF701C;
+	}
+
+	.brand .box .arrowRight
+	{
+		position: absolute;
+		right: 20px;
+		line-height: 60px;
+		height: 60px;
+		font-size: 2rem;
+	}
+
+	.brand .box:hover
+	{
+		opacity: 0.7;
+	}
+
+	.brand .section
+	{
+		width: 100%;
+		height: 100%;
+		text-align: left;
+		line-height: 55px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.brand .section img
+	{
+		height: 34px;
+	}
+
+	.brand .box .section1
+	{
+		border-top: 0px #0072BB solid;
+		border-bottom: 4px #0072BB solid;
+	}
+	.brand .box .section2
+	{
+		border-top: 0px #F80057 solid;
+		border-bottom: 4px #F80057 solid;
+	}
+	.brand .box .section3
+	{
+		border-top: 0px #FF701C solid;
+		border-bottom: 4px #FF701C solid;
+	}
+}
+

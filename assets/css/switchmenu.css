@@ -1,0 +1,640 @@
+.switchMenu
+{
+	width: 100%;
+	position: relative;
+}
+	.switchMenu .menu
+	{
+		width: 100%;
+		height: 100px;
+	}
+
+	.switchMenu .menu .packageIcon
+	{
+		width: 31px;
+		vertical-align: middle;
+		margin-right: 10px;
+	}
+
+	.switchMenu .menu .cartIcon
+	{
+		height: 38px;
+		vertical-align: middle;
+		margin-right: 25px;
+	}
+
+	.switchMenu .menu .legarrowIcon
+	{
+		height: 36px;
+		vertical-align: middle;
+		margin-left: 25px;
+	}
+
+	.switchMenu .menu.active .redArrow
+	{
+		left: 75% !important;
+	}
+
+	.switchMenu .menu .redArrow
+	{
+		position: relative;
+		left: 25%;
+		width: 37px;
+		margin-left: -18.5px;
+		margin-top: -25px;
+	}
+
+	.switchMenu .menu .box
+	{
+		width: 50%;
+		height: 100px;
+		float: left;
+		text-align: center;
+		font-size: 2.4rem;
+		letter-spacing: 1.87px;
+		position: relative;
+		cursor: pointer;
+	}
+
+	.switchMenu .menu .box .text:hover
+	{
+		opacity: 0.7;
+	}
+
+	.switchMenu .menu .box .text
+	{
+		width: 100%;
+		line-height: 54px;
+		vertical-align: middle;
+		position: absolute;
+		text-align: center;
+		top: 50%;
+		margin-top: -27px;
+	}
+
+	.switchMenu .menu .box .rightBorder
+	{
+		border-right: 1px #ACACAC dotted;
+	}
+
+	.switchMenu .switchLine
+	{
+		width: 100%;
+		height: 7px;
+		background-color: #CD0000;
+		float: left;
+	}
+
+	.switchMenu .imageSet
+	{
+		width: 100%;
+		float: left;
+		position: relative;
+	}
+
+	.switchMenu .imageSet .image
+	{
+		position: relative;
+		width: 100%;
+		height: 32.9vw;
+	}
+
+	.switchMenu .imageSet .image .hoverSection
+	{
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		z-index: 100;
+	}
+
+	.switchMenu .imageSet .image .hoverSection .box
+	{
+		width: 33.3333%;
+		height: 100%;
+		float: left;
+		position: relative;
+		cursor: pointer;
+		opacity: 0;
+	}
+
+	.switchMenu .imageSet .image .hoverSection .box:hover
+	{
+		opacity: 1;
+	}
+
+		.switchMenu .imageSet .image .hoverSection .box .front
+		{
+			position: absolute;
+			width: 12vw;
+			left: 50%;
+			margin-left: -6vw;
+			top: 50%;
+			margin-top: -6vw;
+			z-index: 50;
+		}
+
+		.switchMenu .imageSet .image .hoverSection .box .back
+		{
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			background-color: #0072BB;
+			opacity: 0.55;
+		}
+
+	.switchMenu .imageSet .filterColor
+	{
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		background-color: #333;
+		z-index: 50;
+		opacity: 0.19;
+	}
+
+	.switchMenu .imageSet .image .box
+	{
+		width: 33.3333%;
+		height: 32.9vw;
+		float: left;
+	}
+
+	.switchMenu .imageSet .text .box
+	{
+		width: 33.3333%;
+		padding-top: 80px;
+		padding-left: 48px;
+		padding-right: 48px;
+		float: left;
+		position: relative;
+	}
+
+	.switchMenu .imageSet .text .box .arrowBoxColor1
+	{
+		position: absolute;
+		width: 37px;
+		height: 37px;
+		border-radius: 3px;
+		background-color: #EBEBEB;
+		left: 50%;
+		margin-left: -18.5px;
+		top: 0px;
+		margin-top: -9px;
+		z-index: 100;
+	}
+
+	.switchMenu .imageSet .text .box .arrowBoxColor2
+	{
+		position: absolute;
+		width: 37px;
+		height: 37px;
+		border-radius: 3px;
+		background-color: #F4F4F4;
+		left: 50%;
+		margin-left: -18.5px;
+		top: 0px;
+		margin-top: -9px;
+		z-index: 100;
+	}
+
+		.imageSet .boxColor1
+		{
+			background-color: #EBEBEB !important;
+		}
+
+		.imageSet .boxColor2
+		{
+			background-color: #F4F4F4 !important;
+		}
+
+		.imageSet .text h2
+		{
+			padding-left: 7px;
+			padding-right: 7px;
+		}
+
+		.imageSet .text .description
+		{
+			padding-left: 7px;
+			padding-right: 7px;
+			color: #393939;
+			font-size: 1.4rem;
+			line-height: 2.2rem;
+			margin-top: 25px;
+			margin-bottom: 38px;
+		}
+
+	.switchMenu .imageSet .button .box
+	{
+		width: 33.3333%;
+		padding-bottom: 80px;
+		padding-left: 48px;
+		padding-right: 48px;
+		float: left;
+	}
+
+	.switchMenu .imageSet .button .box button
+	{
+		width: 100%;
+		height: 47px;
+		letter-spacing: -0.08px;
+		border-radius: 9px;
+		text-align: center;
+		font-size: 1.8rem;
+		border:1px transparent solid;
+		outline: none;
+		color: #fff;
+		padding-left: 20px;
+		padding-right: 20px;
+		cursor: pointer;
+	}
+
+	.switchMenu .imageSet .button .box .gd-red
+	{
+		border:1px #EC1C24 solid;
+	}
+
+	.switchMenu .imageSet .button .box .gd-red:hover
+	{
+		background: transparent;
+		color: #EC1C24;
+	}
+
+	.switchMenu .imageSet .button .box .bg-lightblue:hover
+	{
+		border:1px #3197FF solid;
+		background-color: transparent !important;
+		color: #3197FF;
+	}
+
+
+	.switchMenu .imageSetTablet
+	{
+		display: none;
+	}
+
+
+	.switchMenu .imageSetTablet .boxContainer
+	{
+		width: 100%;
+		float: left;
+		background-color: #EBEBEB;
+		height: 38vw;
+		overflow: hidden;
+		position: relative;
+	}
+
+	.switchMenu .imageSetTablet .boxContainer .box
+	{
+		width: 100%;
+	}
+
+	.switchMenu .imageSetTablet .boxContainer .box .leftSection
+	{
+		width: 40%;
+		float: left;
+		position: relative;
+	}
+
+	.switchMenu .imageSetTablet .boxContainer .box .leftSection .arrowLeft
+	{
+		position: absolute;
+		width: 4vw;
+		height: 4vw;
+		background-color: #EBEBEB;
+		border-radius: 0.4vw;
+		right: -2.4vw;
+		top: 50%;
+		margin-top: -2vw;
+		z-index: 100;
+	}
+
+	.switchMenu .imageSetTablet .boxContainer .box .leftSection .filterColor
+	{
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		z-index: 50;
+		opacity: 0.25;
+	}
+
+	.switchMenu .imageSetTablet .boxContainer .box .rightSection
+	{
+		width: 60%;
+		background-color: #EBEBEB;
+		height: 100%;
+		float: left;
+		padding: 6vw;
+	}
+
+	.switchMenu .imageSetTablet .boxContainer .box .rightSection h2
+	{
+		font-size: 2.8vw;
+	}
+
+	.switchMenu .imageSetTablet .boxContainer .box .rightSection .description
+	{
+		font-size: 1.8vw;
+		width: 50%;
+		color: #393939;
+		margin-top: 3vw;
+	}
+
+	.switchMenu .imageSetTablet .boxContainer .box .rightSection button
+	{
+		width: 50%;
+		height: 4.2vw;
+		border:0px;
+		color: #fff;
+		font-size: 1.8vw;
+		border-radius: 1vw;
+		margin-top: 3vw;
+		padding-left: 2vw;
+		padding-right: 2vw;
+		outline: none;
+	}
+
+	.switchMenu .imageSetTablet .slick-dots li button:before
+	{
+		font-size: 5vw !important;
+	}
+
+	.switchMenu .imageSetTablet .slick-dots
+	{
+		margin-top: 16vw !important;
+		position: absolute;
+		top: 150vw;
+	}
+
+
+
+	.slider {
+	    width: 100%;
+	}
+
+	.slick-slide img {
+	  width: 100%;
+	}
+
+	.slick-prev:before,
+	.slick-next:before {
+	  color: black;
+	}
+
+
+	.slick-slide {
+	  transition: all ease-in-out .3s;
+	  opacity: .2;
+	}
+
+	.slick-active {
+	  opacity: .5;
+	}
+
+	.slick-current {
+	  opacity: 1;
+	}
+
+@media only screen and (max-width : 992px) {
+	.switchMenu .imageSetTablet
+	{
+		display: block;
+	}
+
+}
+
+@media only screen and (max-width : 768px) {
+	.switchMenu
+	{
+		width: 100%;
+		position: relative;
+		float: left;
+	}
+		.switchMenu .menu
+		{
+			width: 100%;
+			height: 5vw;
+			position: relative;
+			padding-top: 3vw;
+		}
+
+
+		.switchMenu .menu .hospitalShop
+		{
+			display: none;
+		}
+
+		.switchMenu .menu .packageIcon
+		{
+			display: none;
+		}
+
+		.switchMenu .menu .cartIcon
+		{
+			display: none;
+		}
+
+		.switchMenu .menu .legarrowIcon
+		{
+			display: none;
+		}
+
+		.switchMenu .menu .redArrow
+		{
+			position: relative;
+			left: 5%;
+			width: 9vw;
+			top: -17vw;
+			margin-left: 0px;
+			margin-top: -11.4vw;
+			-ms-transform: rotate(90deg); /* IE 9 */
+		    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+		    transform: rotate(90deg);
+		}
+
+		.switchMenu .menu.active .redArrow
+		{
+			left: 5% !important;
+			top: -3.6vw;
+		}
+
+		.switchMenu.package .menu .redArrow
+		{
+			position: relative;
+			left: 5%;
+			width: 9vw;
+			top: 0vw;
+			margin-left: 0px;
+			margin-top: -26vw;
+			-ms-transform: rotate(90deg); /* IE 9 */
+		    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+		    transform: rotate(90deg);
+		}
+
+
+		.switchMenu .menu .borderBottom
+		{
+			border-bottom: 1px #979797 dashed;
+		}
+
+		.switchMenu .menu .box
+		{
+			width: 100%;
+			height: 14vw;
+			float: left;
+			text-align: left;
+			font-size: 5.6vw;
+			letter-spacing: 0px;
+			position: relative;
+			cursor: pointer;
+			margin-left: 15vw;
+		}
+
+		.switchMenu.package .menu .box
+		{
+			width: 100%;
+			height: 20vw;
+			float: left;
+			text-align: left;
+			font-size: 5.6vw;
+			letter-spacing: 0px;
+			position: relative;
+			cursor: pointer;
+			margin-left: 15vw;
+		}
+
+		.switchMenu .menu .box:hover
+		{
+			opacity: 0.7;
+		}
+
+		.switchMenu .menu .box .text
+		{
+			width: 100%;
+			line-height: 0px;
+			vertical-align: middle;
+			position: absolute;
+			text-align: left;
+			padding-left: 0vw;
+			top: 50%;
+			margin-top: 0px;
+		}
+
+		.switchMenu.package .menu .box .text
+		{
+			width: 100%;
+			line-height: 6.2vw;
+			vertical-align: middle;
+			position: absolute;
+			text-align: left;
+			padding-left: 0vw;
+			top: 50%;
+			margin-top: -7vw;
+		}
+
+		.switchMenu .menu .box .rightBorder
+		{
+			border-right: 1px #ACACAC dotted;
+		}
+
+		.switchMenu .switchLine
+		{
+			display: none;
+		}
+
+ 		.switchMenu .switchLineMobile.red
+ 		{
+ 			background-color: #CD0000;
+ 			width: 3vw;
+			height: 100%;
+			position: absolute;
+			z-index: 100;
+			-webkit-clip-path: polygon(0 0, 100% 1.7%, 100% 100%, 0% 100%);
+			clip-path: polygon(0 0, 100% 1.7%, 100% 100%, 0% 100%);
+ 		}
+
+ 		.switchMenu .switchLineMobile.blue
+ 		{
+ 			background-color: #3197FF;
+ 			width: 3vw;
+			height: 100%;
+			position: absolute;
+			z-index: 100;
+			-webkit-clip-path: polygon(0 0, 100% 0%, 100% 98.3%, 0% 100%);
+			clip-path: polygon(0 0, 100% 0%, 100% 98.3%, 0% 100%);
+ 		}
+
+
+
+	.switchMenu .imageSetTablet .boxContainer
+	{
+		width: 100%;
+		float: left;
+		background-color: #EBEBEB;
+		height: 180vw;
+		overflow: hidden;
+		position: relative;
+	}
+
+	.switchMenu .imageSetTablet .boxContainer .box
+	{
+		width: 100%;
+	}
+
+	.switchMenu .imageSetTablet .boxContainer .box .leftSection
+	{
+		width: 100%;
+		float: left;
+		position: relative;
+	}
+
+	.switchMenu .imageSetTablet .boxContainer .box .leftSection .arrowLeft
+	{
+		display: none;
+	}
+
+	.switchMenu .imageSetTablet .boxContainer .box .leftSection .filterColor
+	{
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		z-index: 50;
+		opacity: 0.25;
+	}
+
+	.switchMenu .imageSetTablet .boxContainer .box .rightSection
+	{
+		width: 100%;
+		background-color: #EBEBEB;
+		height: 100%;
+		float: left;
+		padding: 12vw;
+	}
+
+	.switchMenu .imageSetTablet .boxContainer .box .rightSection h2
+	{
+		font-size: 6.2vw;
+	}
+
+	.switchMenu .imageSetTablet .boxContainer .box .rightSection .description
+	{
+		font-size: 5vw;
+		width: 80%;
+		color: #393939;
+		margin-top: 3vw;
+	}
+
+	.switchMenu .imageSetTablet .boxContainer .box .rightSection button
+	{
+		width: 100%;
+		height: 12vw;
+		padding-left: 6vw;
+		padding-right: 6vw;
+		border:0px;
+		color: #fff;
+		font-size: 5vw;
+		border-radius: 2.4vw;
+		margin-top: 3vw;
+		outline: none;
+	}
+}

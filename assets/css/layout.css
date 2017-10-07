@@ -1,0 +1,58 @@
+.element
+{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.fluid
+{
+	width: 100% !important;
+}
+
+.only-desktop
+{
+	display: block !important;
+}
+
+.only-tablet
+{
+	display: none !important;
+}
+
+.only-mobile
+{
+	display: none !important;
+}
+
+@media only screen and (min-width : 768px) and (max-width : 992px) {
+	.only-desktop
+	{
+		display: none !important;
+	}
+
+	.only-tablet
+	{
+		display: block !important;
+	}
+
+	.only-mobile
+	{
+		display: none !important;
+	}
+}
+@media only screen and (max-width : 768px) {
+	.only-desktop
+	{
+		display: none !important;
+	}
+
+	.only-tablet
+	{
+		display: none !important;
+	}
+
+	.only-mobile
+	{
+		display: block !important;
+	}
+}
