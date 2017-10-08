@@ -7,7 +7,9 @@ $(document).on('ready', function() {
 		asNavFor: '.slider-for',
 		dots: false,
 		asNavFor: '.bannerTextSlider',
-		draggable: true
+		draggable: true,
+		autoplaySpeed: 3000,
+		autoplay: true
 	});
 	$(".bannerTextSlider").slick({
 		speed: 500,
