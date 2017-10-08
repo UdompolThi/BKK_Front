@@ -162,9 +162,10 @@
 	.switchMenu .imageSet .text .box
 	{
 		width: 33.3333%;
-		padding-top: 80px;
+		padding-top: 60px;
 		padding-left: 48px;
 		padding-right: 48px;
+		height: 340px;
 		float: left;
 		position: relative;
 	}
@@ -220,20 +221,22 @@
 			color: #393939;
 			font-size: 1.4rem;
 			line-height: 2.2rem;
-			margin-top: 25px;
+			margin-top: 20px;
 			margin-bottom: 38px;
 		}
 
-	.switchMenu .imageSet .button .box
+	.switchMenu .buttonBox
 	{
-		width: 33.3333%;
-		padding-bottom: 80px;
+		width: 100%;
+		float: left;
+		position: absolute;
+		left: 0px;
 		padding-left: 48px;
 		padding-right: 48px;
-		float: left;
+		bottom: 50px;
 	}
 
-	.switchMenu .imageSet .button .box button
+	.switchMenu .imageSet .buttonBox button
 	{
 		width: 100%;
 		height: 47px;
@@ -249,18 +252,18 @@
 		cursor: pointer;
 	}
 
-	.switchMenu .imageSet .button .box .gd-red
+	.switchMenu .imageSet .buttonBox .gd-red
 	{
 		border:1px #EC1C24 solid;
 	}
 
-	.switchMenu .imageSet .button .box .gd-red:hover
+	.switchMenu .imageSet .buttonBox .gd-red:hover
 	{
 		background: transparent;
 		color: #EC1C24;
 	}
 
-	.switchMenu .imageSet .button .box .bg-lightblue:hover
+	.switchMenu .imageSet .buttonBox .bg-lightblue:hover
 	{
 		border:1px #3197FF solid;
 		background-color: transparent !important;

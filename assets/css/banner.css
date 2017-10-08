@@ -14,6 +14,59 @@
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d99d2', endColorstr='#084875', GradientType=0 );
 }
 
+.banner .bannerArrowLeft
+{
+	width: 3vw;
+	height: 8vw;
+	background-color: #fff;
+	position: absolute;
+	z-index: 150;
+	opacity: 0.45;
+	top: 18%;
+	text-align: center;
+	line-height: 8vw;
+	font-size: 3vw;
+	color: #0072BB;
+	margin-top: -4vw;
+	cursor: pointer;
+	z-index: 300;
+}
+
+.banner .bannerArrowLeft:hover
+{
+	opacity: 1;
+}
+
+.banner .bannerArrowRight
+{
+	width: 3vw;
+	height: 8vw;
+	background-color: #fff;
+	position: absolute;
+	z-index: 150;
+	opacity: 0.45;
+	top: 18%;
+	right: 0px;
+	text-align: center;
+	line-height: 8vw;
+	font-size: 3vw;
+	color: #0072BB;
+	margin-top: -4vw;
+	cursor: pointer;
+	z-index: 300;
+}
+
+.banner .bannerArrowRight:hover
+{
+	opacity: 1;
+}
+
+.banner .bannerImageSlider
+{
+	width: 100%;
+	position: relative;
+}
+
 .banner .bannerImage
 {
 	background-color: #333;
@@ -23,7 +76,21 @@
 	clip-path: polygon(0 0, 100% 0, 100% 70%, 50% 100%, 0 70%);
 }
 
-.banner .bannerText
+.banner .bannerTextSlider
+{
+	position: absolute;
+	z-index: 200;
+	width: 100%;
+	height: 45vw;
+}
+
+.banner .bannerTextSlider .bannerText
+{
+	width: 100%;
+	height: 45vw;
+}
+
+.banner .bannerTextSlider .bannerText .box
 {
 	position: absolute;
 	z-index: 100;
@@ -68,11 +135,26 @@
 	outline: none;
 }
 
+.banner .bannerText .callToAction button .text
+{
+	vertical-align: middle;
+	float: left;
+}
+
+
 .banner .bannerText .callToAction button .icon
+{
+	height:3.4vw;
+	line-height: 3.4vw;
+	float: left;
+}
+
+.banner .bannerText .callToAction button .icon img
 {
 	width: 0.8vw;
 	margin-left: 1.2vw;
 	vertical-align: middle;
+	float: left;
 }
 
 .banner .iconSet
@@ -880,13 +962,47 @@
 		top: 102vw;
 	}
 
-		.banner .bannerText
+
+		.banner .bannerImageSlider
+		{
+			width: 100%;
+			position: relative;
+		}
+
+		.banner .bannerImage
+		{
+			background-color: #333;
+			width: 100%;
+			height: 45vw;
+			-webkit-clip-path: polygon(0 0, 100% 0, 100% 70%, 50% 100%, 0 70%);
+			clip-path: polygon(0 0, 100% 0, 100% 70%, 50% 100%, 0 70%);
+		}
+
+
+		.banner .bannerTextSlider
 		{
 			position: absolute;
-			z-index: 100;
+			z-index: 200;
 			left: 28vw;
 			top: 48vw;
 		}
+
+
+		.banner .bannerTextSlider .bannerText
+		{
+			width: 100%;
+			height: 60vw;
+		}
+
+		.banner .bannerTextSlider .bannerText .box
+		{
+			position: absolute;
+			z-index: 100;
+			left: 0vw;
+			top: 5vw;
+		}
+
+
 
 		.banner .bannerText .logo
 		{
