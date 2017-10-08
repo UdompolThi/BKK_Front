@@ -1030,8 +1030,8 @@
 		{
 			height:8.2vw;
 			line-height: 8.2vw;
-			padding-left: 2.8vw;
-			padding-right: 2.8vw;
+			padding-left: 4vw;
+			padding-right: 4vw;
 			background-color: #0061A0;
 			font-size: 3.6vw;
 			color: #fff;
@@ -1041,11 +1041,22 @@
 			outline: none;
 		}
 
+
 		.banner .bannerText .callToAction button .icon
 		{
-			width: 2vw;
+			height:8.2vw;
+			line-height: 8.2vw;
+			width: 0.8vw;
+			margin-left: 1.2vw;
+			float: left;
+		}
+
+		.banner .bannerText .callToAction button .icon img
+		{
+			width: 1.8vw;
 			margin-left: 1.2vw;
 			vertical-align: middle;
+			float: left;
 		}
 
 
