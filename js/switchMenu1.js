@@ -10,12 +10,16 @@ $(document).on('ready', function() {
 
 $(document).on('ready', function() {
 
+	$("#healthExpertCon").hide();
+
 	$("#healthExpert").click(function(){
 		$("#switchMenu1").last().addClass("active");
 		$("#healthExpert").last().removeClass("text-blue");
 		$("#healthExpert").last().addClass("text-red");
 		$("#CentersOfExcellence").last().removeClass("text-red");
 		$("#CentersOfExcellence").last().addClass("text-blue");
+		$("#healthExpertCon").show();
+		$("#CentersOfExcellenceCon").hide();
 	});
 
 	$("#CentersOfExcellence").click(function(){
@@ -24,6 +28,8 @@ $(document).on('ready', function() {
 		$("#healthExpert").last().removeClass("text-red");
 		$("#CentersOfExcellence").last().addClass("text-red");
 		$("#CentersOfExcellence").last().removeClass("text-blue");
+		$("#healthExpertCon").hide();
+		$("#CentersOfExcellenceCon").show();
 	});
 
 });
